@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "components/Navbar.js";
 import Footer from "components/Footer.js";
 
-export default function Landing() {
+export default function Home() {
   return (
     <>
       <Navbar transparent />
@@ -23,7 +23,7 @@ export default function Landing() {
                 <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                   <div className="pr-12">
                     <h1 className="text-white font-semibold text-5xl">
-                      Transformation digitale.
+                      Transformation digitale
                     </h1>
                     <p className="mt-4 text-lg text-gray-300">
                       This is a simple example of a Landing Page you can build
@@ -48,10 +48,6 @@ export default function Landing() {
               x="0"
               y="0"
             >
-              <polygon
-                className="text-gray-300 fill-current"
-                points="2560 0 2560 100 0 100"
-              ></polygon>
             </svg>
           </div>
         </div>
@@ -65,7 +61,7 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       <i className="fas fa-award"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Awarded Agency</h6>
+                    <h6 className="text-xl font-semibold">Web</h6>
                     <p className="mt-2 mb-4 text-gray-600">
                       Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.
                     </p>
@@ -80,7 +76,7 @@ export default function Landing() {
                       <i className="fas fa-retweet"></i>
                     </div>
                     <h6 className="text-xl font-semibold">
-                      Free Revisions
+                      Mobile
                     </h6>
                     <p className="mt-2 mb-4 text-gray-600">
                       Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.
@@ -96,7 +92,7 @@ export default function Landing() {
                       <i className="fas fa-fingerprint"></i>
                     </div>
                     <h6 className="text-xl font-semibold">
-                      Verified Company
+                      Cloud computing
                     </h6>
                     <p className="mt-2 mb-4 text-gray-600">
                       Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!
@@ -126,16 +122,10 @@ export default function Landing() {
                   you're good to go. Just make sure you enable them first via
                   JavaScript.
                 </p>
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-                  className="font-bold text-gray-800 mt-8"
-                >
-                  Check Tailwind Starter Kit!
-                </a>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ">
                   <img
                     alt="..."
                     src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
@@ -154,17 +144,57 @@ export default function Landing() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-pink-600 fill-current"
+                        className="text-white fill-current"
                       ></polygon>
                     </svg>
-                    <h4 className="text-xl font-bold text-white">
-                      Top Notch Services
+                    <h4 className="text-xl font-bold text-grey">
+                      Nos Services
                     </h4>
-                    <p className="text-md font-light mt-2 text-white">
+                    <p className="text-md font-light mt-2 text-grey">
                       The Arctic Ocean freezes every winter and much of the
                       sea-ice then thaws every summer, and that process will
                       continue whatever happens.
                     </p>
+                    <ul className="list-none mt-6">
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="text-grey font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200 mr-3">
+                            <i className="fas fa-fingerprint"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-md font-light mt-2 text-grey">
+                            Carefully crafted components
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="text-grey font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200 mr-3">
+                            <i className="fab fa-html5"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-md font-grey mt-2 text-grey">Amazing page examples</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="text-grey font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200 mr-3">
+                            <i className="far fa-paper-plane"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-md font-grey mt-2 text-grey">Dynamic components</h4>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
                   </blockquote>
                 </div>
               </div>
@@ -209,7 +239,7 @@ export default function Landing() {
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
                   <h3 className="text-3xl font-semibold">
-                    A growing company
+                    Une entreprise en pleine expension
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
                     The extension comes with three pre-built pages to help you
@@ -268,7 +298,7 @@ export default function Landing() {
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold">
-                  Here are our heroes
+                  Les equipes a la tete de l'entreprise
                 </h2>
                 <p className="text-lg leading-relaxed m-4 text-gray-600">
                   According to the National Oceanic and Atmospheric
@@ -430,7 +460,7 @@ export default function Landing() {
 
         <section className="pb-20 relative block bg-gray-900">
           <div
-            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+            className=" overflow-hidden -mt-20"
             style={{ height: "80px" }}
           >
             <svg
@@ -442,10 +472,6 @@ export default function Landing() {
               x="0"
               y="0"
             >
-              <polygon
-                className="text-gray-900 fill-current"
-                points="2560 0 2560 100 0 100"
-              ></polygon>
             </svg>
           </div>
 
@@ -453,7 +479,7 @@ export default function Landing() {
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white">
-                  Build something
+                  Nos valeurs
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                   Put the potentially record low maximum sea ice extent tihs year down to low ice.
@@ -467,7 +493,7 @@ export default function Landing() {
                   <i className="fas fa-medal text-xl"></i>
                 </div>
                 <h6 className="text-xl mt-5 font-semibold text-white">
-                  Excelent Services
+                  Qualités
                 </h6>
                 <p className="mt-2 mb-4 text-gray-500">
                   Some quick example text to build on the card title and make up
@@ -479,7 +505,7 @@ export default function Landing() {
                   <i className="fas fa-poll text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
-                  Grow your market
+                  Disponibilité
                 </h5>
                 <p className="mt-2 mb-4 text-gray-500">
                   Some quick example text to build on the card title and make up
@@ -491,7 +517,7 @@ export default function Landing() {
                   <i className="fas fa-lightbulb text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
-                  Launch time
+                  Responsabilité
                 </h5>
                 <p className="mt-2 mb-4 text-gray-500">
                   Some quick example text to build on the card title and make up

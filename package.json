@@ -1,5 +1,5 @@
 {
-  "name": "react-landing-page",
+  "name": "atimotech",
   "version": "1.1.0",
   "private": true,
   "dependencies": {
@@ -34,7 +34,7 @@
   },
   "optionalDependencies": {
     "typescript": "4.2.3"
-  }
+  },
   "engines":{
   	"node": "12.22.1",
 	"npm" : "8.3.1"
