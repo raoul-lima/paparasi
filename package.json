@@ -11,6 +11,7 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+	"poststart": "npm prune --production",
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
